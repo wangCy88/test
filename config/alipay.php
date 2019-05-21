@@ -1,0 +1,20 @@
+<?php
+return[
+    //appid
+    'appid' => '2019030863459753',
+
+    //公钥
+    'publicKey' => 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp2/LkXujbg7wdA6Pbtw9M7m2zOi9Go+UNKNMdyjq5yptSKxBkLJI0wpiGeIaiAS/YFKEmju/uAnCy7FmcZ7a5iqk3Zz3dCOVbY7pExrwaymiZPFS84R+6jAqkffi6wypcrVj+tZfWpqzbC+496RqFM4MKiLVpYwE4fMZU3mwEy4JbIVRbTWawYEtpRRk0+aAwTgl6ch8CWb/O6mA6qWXOst/RXxJEaiQweE6kXIxhjheI+RjEDqCKVP0TPfXMRTbUSOz0ndfIusKFNIM9lEQGtykVjWvS2yW9pf8fPOfAsMltK5sa8FQA7uTQNghxoFGazWPpUTclZNFe0S30duhAQIDAQAB',
+
+    //私钥
+    'privateKey' => 'MIIEpAIBAAKCAQEA2+4abDMzQX3q3FazHGi7oN99Ue+Tv9cNCxzUQAmJWcck87/cDy+v4cZ35UY/UytvwtHPZIOs7gBYGig+ZqvtR7COox8GvlamSiyy9LVxpuKgtju/A9PlwpFvjJReEyXIKk9ddJD+o27JmgG/YpK/6q3WdE8SevFZtJzdPPAQWvTPbwSa+7DMdKOl3keuM+Ii7g/CrpFh7nyb4QJiy4Fksxg+rU0xXONAyAL+rEdPsIx/uu/3S7XxREMrWkULH+a9LOChKIVLb52Q+DFlAQGQWfpq0fhewwkqf5bZqs520Q1G/aBLaKz2qi2YnMd1E3THDl1LrXDczBT3PC13+dTWXQIDAQABAoIBADA/+pgGW5Zgs6gHdWAkMhXHMk1JjFaoLXpkpsQt025Y3GiFjRff1GxqCF/Km5X5j5lkQmXA5a2Jccq7TYVk7retqn1rDyWvCOh5CgHZ1MdSLQQN84g5cszO73QeEM2Omm193/j03oiog55AB+buXyBzZvs5ZcqHLLENQRRfbpcleigq/nSub5AHhnHdxw8HmQUuGml9XjB4jCM2cqKM8sXEenDFXdhJoMU8+rSGOXvbpkSSAslkrcrSIaELD+YalOVJafnBODzQKEOl4yEWO18xHDWnOdOUrnt/rfaZDCyS5KSie5WoYL580M3hfoq9GQxO6zc6GmpVzYxmiVPSjEECgYEA+RPzK62L5baDaU5ZtohE8VChts+67jpTxP2H7KF+SihTX9ULdg2IQW7IxDqWehTmPtj+KKfKL2N6da2ukZUJzi5CLUt2OpecOpryQsbQfn1yZDLa0fAZvvvPj3SB5pcjocVBmhBelUo/aRR11W25ThTq8VRlsAg0WXj0vtsU7AkCgYEA4grIYz0/yFLQUcLP7oozQNeYtuBxrnaKitR55QAJEAY9+evz13vOWtnIq00IFCM7Yr5mnoq39Ze2t/fIoedDJueS5Hoc9C1a8s1hMtb+Y31feg4xZOQN+OISHbHY/s1IhjZbDn+DbpsxdyrWXrnt+KWM2u7LsEzvrmym+fWfVLUCgYEAvpB54rgDqbuq7P2p+9JkVPBo2XIzRaLQho2m2e9wrRIPP+nCvA58aft1lVRx3nNw+TKRuc8uDHWisrgwMGgDuYCA1yC+EvP97oSvx1FPIQefZnPWIPr+57TGx63O2PpXo6REnbfadYP54c5qnOE2/jtYyUzWBAky7CVzszXw2ukCgYB9H0TfEgddZuHjcDfTLfLDANSK3mBvFzUHNignJ8bcdOgXkJGQhPqr9YOLtv8yznHP7d82AUllC87btK/9VtsoDOWVzTZ7vyNp5V/ZWYLFJaAVGwgidc56JwGqKEkaeh2cFTiAJPtm3UcbVL4G/1qH2XPHuIlNlLjTz1b6ZAkHRQKBgQDB3albPRulqmIIkgwCmj2DCeNwwIACOUByeRdrfnDBl1bC1d4nFjqu434jfNsQCudoFoex8T4tAvI1GOgqUxPJrFf0KudoUhbu6J2+vN+zy93Do8mw4ZCnvmTG4fdQ5/N/J0CPhOyctI0JZN3enB2Yu72bdrxjXYzeuT4zSt7Lfw==',
+
+    //回调地址
+    'notifyUrl' => 'https://cv.liangziloan.com/aliPayNotify',
+
+    //还款回调地址
+    'notifyUrlRepay' => 'https://cv.liangziloan.com/aliPayNotifyRepay',
+
+    //展期回调地址
+    'notifyUrlExtension' => 'https://cv.liangziloan.com/aliPayNotifyExtension',
+];
